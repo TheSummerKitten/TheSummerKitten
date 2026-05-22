@@ -1,0 +1,10 @@
+.DS_Store
+Thumbs.db
+db.json
+*.log
+hexo-server*.log
+node_modules/
+.npm-cache/
+public/
+.deploy*/
+_multiconfig.yml
