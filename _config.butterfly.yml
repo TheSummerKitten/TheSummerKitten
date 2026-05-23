@@ -10,10 +10,10 @@ menu:
   归档: /archives/ || fas fa-archive
   GitHub: https://github.com/TheSummerKitten || fab fa-github
 
-favicon: /img/favicon.ico
+favicon: /img/site.ico
 
 avatar:
-  img: /img/butterfly-icon.png
+  img: /img/Avatar.jpg
   effect: true
 
 default_top_img: "linear-gradient(135deg, #ffd6e7 0%, #fff1c9 52%, #c9f4ff 100%)"
@@ -50,7 +50,7 @@ aside:
       link: https://github.com/TheSummerKitten
   card_announcement:
     enable: true
-    content: 欢迎来到 The Summer Kitten.
+    content: 欢迎来到 The Summer Kitten的个人博客。
 
 theme_color:
   enable: true
