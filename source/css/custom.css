@@ -1,0 +1,41 @@
+:root {
+  --card-box-shadow: 0 12px 28px rgba(232, 106, 160, 0.12);
+  --card-hover-box-shadow: 0 16px 36px rgba(123, 223, 242, 0.2);
+  --border-radius: 16px;
+}
+
+body {
+  letter-spacing: 0;
+}
+
+#page-header {
+  overflow: hidden;
+}
+
+#site-title,
+#site-subtitle,
+#site-name {
+  text-shadow: 0 3px 16px rgba(232, 106, 160, 0.18);
+}
+
+.card-widget,
+.recent-post-item,
+#post,
+#page,
+#archive {
+  border: 1px solid rgba(255, 182, 210, 0.45);
+  box-shadow: var(--card-box-shadow);
+}
+
+.card-widget:hover,
+.recent-post-item:hover {
+  box-shadow: var(--card-hover-box-shadow);
+}
+
+#nav .menus_items .menus_item .menus_item_child {
+  border: 1px solid rgba(255, 182, 210, 0.42);
+}
+
+a:hover {
+  color: #59cbe8;
+}
