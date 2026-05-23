@@ -25,7 +25,7 @@ subtitle:
   effect: true
   source: false
   sub:
-    - 写一点柔软的小事
+    - 猫的记录
     - The Summer Kitten
 
 index_layout: 4
@@ -35,8 +35,7 @@ cover:
   aside_enable: true
   archives_enable: true
   default_cover:
-    - /img/butterfly-icon.png
-
+    - /img/default-cover.jpg
 aside:
   enable: true
   position: right
