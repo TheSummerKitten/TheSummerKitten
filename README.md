@@ -149,6 +149,68 @@ source/css/custom.css
 
 适合放颜色、圆角、阴影、间距等个性化样式。
 
+## Live2D 看板娘
+
+当前项目使用 `hexo-helper-live2d` 接入 Live2D，看板娘配置在：
+
+```text
+_config.yml
+```
+
+配置段落：
+
+```yaml
+live2d:
+  enable: true
+  model:
+    use: live2d-widget-model-koharu
+```
+
+当前使用的公开模型是：
+
+```text
+live2d-widget-model-koharu
+```
+
+如果要更换 npm 模型，可以先安装模型包：
+
+```powershell
+npm install live2d-widget-model-shizuku --save
+```
+
+然后把 `_config.yml` 里的模型名改成：
+
+```yaml
+live2d:
+  model:
+    use: live2d-widget-model-shizuku
+```
+
+常见公开模型包包括：
+
+```text
+live2d-widget-model-koharu
+live2d-widget-model-shizuku
+live2d-widget-model-wanko
+live2d-widget-model-haru
+live2d-widget-model-hijiki
+live2d-widget-model-miku
+live2d-widget-model-tororo
+live2d-widget-model-z16
+```
+
+如果使用自己的 Live2D 模型，需要提供完整模型文件夹，通常包含：
+
+```text
+model.json 或 model3.json
+贴图文件
+动作文件
+表情文件
+物理配置文件
+```
+
+注意不要只提供 `model.json` 或 `model3.json`，它们只是入口配置，里面引用到的贴图、动作、物理文件也必须一起提供。
+
 ## 构建项目
 
 本地生成静态文件：
