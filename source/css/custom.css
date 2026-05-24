@@ -39,3 +39,13 @@ body {
 a:hover {
   color: #59cbe8;
 }
+
+::selection {
+  background: #ffe3ef;
+  color: #4a2534;
+}
+
+::-moz-selection {
+  background: #ffe3ef;
+  color: #4a2534;
+}
