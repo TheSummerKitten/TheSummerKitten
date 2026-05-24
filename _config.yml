@@ -115,14 +115,14 @@ live2d:
   tagMode: false
   log: false
   model:
-    use: /TheSummerKitten/live2d/yuri/model.json
+    use: /TheSummerKitten/live2d/snow_miku/model.json
     scale: 1
     hHeadPos: 0.5
     vHeadPos: 0.618
   display:
     position: right
-    width: 150
-    height: 300
+    width: 300
+    height: 600
     hOffset: 24
     vOffset: -24
   mobile:
