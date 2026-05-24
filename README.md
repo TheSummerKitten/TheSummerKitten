@@ -166,13 +166,29 @@ live2d:
     use: live2d-widget-model-koharu
 ```
 
-当前使用的公开模型是：
+当前使用的本地模型是：
 
 ```text
-live2d-widget-model-koharu
+source/live2d/yuri/model.json
 ```
 
-如果要更换 npm 模型，可以先安装模型包：
+项目里还包含另一个本地模型：
+
+```text
+source/live2d/snow_miku/model.json
+```
+
+如果要切换模型，修改 `_config.yml` 里的 `model.use`：
+
+```yaml
+live2d:
+  model:
+    use: /TheSummerKitten/live2d/snow_miku/model.json
+```
+
+注意：这里写完整的 `/TheSummerKitten/live2d/...` 路径，是为了适配 GitHub Pages 项目站点路径。
+
+如果要更换 npm 公开模型，也可以安装模型包：
 
 ```powershell
 npm install live2d-widget-model-shizuku --save
