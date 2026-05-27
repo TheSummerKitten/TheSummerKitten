@@ -94,4 +94,4 @@ footer:
 
 inject:
   head:
-    - <link rel="stylesheet" href="/TheSummerKitten/css/custom.css">
+    - <link rel="stylesheet" href="/TheSummerKitten/css/custom.css?v=20260527">
