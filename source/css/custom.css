@@ -4,6 +4,14 @@
   --border-radius: 16px;
 }
 
+@font-face {
+  font-family: "Cutefont";
+  src: url("../fonts/ZCOOLKuaiLe-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   letter-spacing: 0;
   font-family: "Comic Sans MS", "YouYuan", "幼圆", "Hiragino Maru Gothic ProN", "Microsoft YaHei", sans-serif;
@@ -43,6 +51,45 @@ body {
 #archive {
   border: 1px solid rgba(255, 182, 210, 0.45);
   box-shadow: var(--card-box-shadow);
+}
+
+#article-container {
+  font-family: "Cutefont", "YouYuan", "幼圆", "Microsoft YaHei", sans-serif;
+}
+
+#recent-posts .recent-post-info,
+#recent-posts .article-title,
+#recent-posts .article-meta-wrap,
+#recent-posts .content,
+.aside-list .content,
+.aside-list .title,
+.card-tag-cloud,
+.card-archives,
+.card-categories {
+  font-family: "Cutefont", "YouYuan", "幼圆", "Microsoft YaHei", sans-serif;
+}
+
+#recent-posts .article-title {
+  color: #e86aa0;
+  font-size: 1.42em;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+#recent-posts .content {
+  color: #6f5d68;
+  font-size: 1.05em;
+  line-height: 1.9;
+}
+
+#recent-posts .article-meta-wrap,
+.aside-list time {
+  color: #a98496;
+}
+
+.aside-list .title {
+  color: #d95f96;
+  font-weight: 400;
 }
 
 .card-widget:hover,
