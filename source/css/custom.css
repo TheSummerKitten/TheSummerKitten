@@ -6,6 +6,8 @@
 
 body {
   letter-spacing: 0;
+  font-family: "Comic Sans MS", "YouYuan", "幼圆", "Hiragino Maru Gothic ProN", "Microsoft YaHei", sans-serif;
+  font-weight: 400;
 }
 
 #page-header {
@@ -16,6 +18,22 @@ body {
 #site-subtitle,
 #site-name {
   text-shadow: 0 3px 16px rgba(232, 106, 160, 0.18);
+}
+
+#site-title,
+#site-subtitle,
+#site-name,
+#nav,
+.article-title,
+.item-headline,
+.card-info .author-info-name {
+  font-family: "Comic Sans MS", "YouYuan", "幼圆", "Hiragino Maru Gothic ProN", "Microsoft YaHei", sans-serif;
+}
+
+#site-title,
+.article-title,
+.card-info .author-info-name {
+  font-weight: 700;
 }
 
 .card-widget,

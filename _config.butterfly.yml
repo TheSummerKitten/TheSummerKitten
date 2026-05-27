@@ -73,6 +73,16 @@ theme_color:
 rounded_corners_ui: true
 display_mode: light
 
+font:
+  global_font_size:
+  code_font_size:
+  font_family: '"Comic Sans MS", "YouYuan", "幼圆", "Hiragino Maru Gothic ProN", "Microsoft YaHei", sans-serif'
+  code_font_family: '"Cascadia Code", "Fira Code", Consolas, monospace'
+
+blog_title_font:
+  font_link:
+  font_family: '"Comic Sans MS", "YouYuan", "幼圆", "Hiragino Maru Gothic ProN", "Microsoft YaHei", sans-serif'
+
 footer:
   owner:
     enable: true
