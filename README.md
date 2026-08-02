@@ -75,6 +75,33 @@ tags:
 这里开始写正文。
 ```
 
+如果文章是繁体中文，可以用仓库里的 OpenCC 脚本转成简体中文：
+
+```powershell
+python .\scripts\opencc_convert.py "source/_posts/2026/07/极左狂人张春桥.md"
+```
+
+默认会生成一个新文件，例如：
+
+```text
+source/_posts/2026/07/极左狂人张春桥-简体.md
+```
+
+常用参数：
+
+```powershell
+python .\scripts\opencc_convert.py source/_posts
+python .\scripts\opencc_convert.py "source/_posts/2026/07/极左狂人张春桥.md" --in-place
+python .\scripts\opencc_convert.py "source/_posts/2026/07/极左狂人张春桥.md" -c tw2s
+```
+
+说明：
+
+- `source/_posts`：批量转换整个文章目录下的 Markdown 文件
+- `--in-place`：直接覆盖原文件，谨慎使用
+- `-c tw2s`：适合台湾繁体到简体的转换
+- 默认配置是 `t2s`，适合大多数繁体中文内容
+
 ## 修改首页
 
 首页内容在：

@@ -8,3 +8,4 @@ node_modules/
 public/
 .deploy*/
 _multiconfig.yml
+scripts/__pycache__/
