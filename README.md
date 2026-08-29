@@ -78,21 +78,21 @@ tags:
 如果文章是繁体中文，可以用仓库里的 OpenCC 脚本转成简体中文：
 
 ```powershell
-python .\scripts\opencc_convert.py "source/_posts/2026/07/极左狂人张春桥.md"
+python .\scripts\opencc_convert.py "source/_posts/2026/07/xxxx.md"
 ```
 
 默认会生成一个新文件，例如：
 
 ```text
-source/_posts/2026/07/极左狂人张春桥-简体.md
+source/_posts/2026/07/xxxx-简体.md
 ```
 
 常用参数：
 
 ```powershell
 python .\scripts\opencc_convert.py source/_posts
-python .\scripts\opencc_convert.py "source/_posts/2026/07/极左狂人张春桥.md" --in-place
-python .\scripts\opencc_convert.py "source/_posts/2026/07/极左狂人张春桥.md" -c tw2s
+python .\scripts\opencc_convert.py "source/_posts/2026/07/xxxx.md" --in-place
+python .\scripts\opencc_convert.py "source/_posts/2026/07/xxxx.md" -c tw2s
 ```
 
 说明：
